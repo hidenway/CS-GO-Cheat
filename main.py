@@ -32,5 +32,4 @@ def main():
                         pm.write_int(glow + entity_glow * 0x38 + 0x28, 1)
 
 if __name__  == '__main__':
-    print('On Online')
     main()
