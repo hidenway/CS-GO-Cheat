@@ -1,10 +1,13 @@
 import pymem
 
+# offset
+# ------------------------------
 dwEntityList = 0x4DFFF14
 dwGlowObjectManager = 0x535A9D8
 m_iGlowIndex = 0x10488
 m_iTeamNum = 0xF4
 dwLocalPlayer = 0xDEA964
+# ------------------------------
 
 def main():
     pm = pymem.Pymem("csgo.exe")
